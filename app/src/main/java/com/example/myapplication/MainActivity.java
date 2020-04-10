@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().hide();
+
         minutesText = findViewById(R.id.minutes);
         secondsText = findViewById(R.id.seconds);
         mSecondsText = findViewById(R.id.m_seconds);
